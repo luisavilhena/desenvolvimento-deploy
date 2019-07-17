@@ -4004,10 +4004,17 @@ a {
   height: 1em;
 }
 .menu {
+  background-color: black;
   font-size: 30px;
-  color: black;
+  color: white;
 }
-.menu a {
+.menu ul {
+  list-style: none;
+}
+.menu ul li {
+  padding-right: 40px;
+}
+.menu ul li a {
   text-decoration: none;
 }
 .dd-container {

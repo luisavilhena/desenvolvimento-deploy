@@ -4004,8 +4004,32 @@ a {
   height: 1em;
 }
 .menu {
-  font-size: 80px;
-  color: red;
+  background-color: black;
+  font-size: 30px;
+  color: white;
+}
+.menu ul {
+  list-style: none;
+}
+.menu ul li {
+  padding-right: 40px;
+}
+.menu ul li a {
+  text-decoration: none;
+}
+.dd-container {
+  position: relative;
+}
+.dd-container .dd-image {
+  width: 60%;
+}
+.dd-container .dd-header-page {
+  position: absolute;
+  top: 200px;
+  right: 30%;
+}
+.dd-container .dd-header-page span {
+  color: white;
 }
 /**
  * Structural elements

@@ -27,11 +27,6 @@
 	<!-- <div id="mobile-menu-overlay"></div> -->
 	<header id="main-header">
 	  <div class="website-side-padding website-max-width">
-	    <a
-	      id="logo-anchor"
-	      href="<?php echo get_home_url(); ?>">
-	      <?php require('resources/img/logo.svg'); ?>
-	    </a>
 
 	    <button id="mobile-menu-trigger">
 	      <span></span>

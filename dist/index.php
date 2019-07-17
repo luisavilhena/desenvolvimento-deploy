@@ -21,9 +21,14 @@ get_header(); ?>
       'background-color' => 'magenta',
     ), function () {
       ?>
-      <h1>
-        <?php the_title(); ?>
-      </h1>
+      <div class="dd-container">
+        <div class="dd-header-page">
+          <h1>
+            <span>Hell</span>o, lorem!
+          </h1>
+        </div>
+        <img  class="dd-image"src="<?php echo get_template_directory_uri(); ?>/resources/img/fish.jpg">
+      </div>
       <?php
     })
     ?>
